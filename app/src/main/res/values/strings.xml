@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="square">square</string>
+    <string name="rectangle">rectangle</string>
+    <string name="circle">circle</string>
+    <string name="triangle">triangle</string>
+    <string name="calculate">calculate</string>
+    <string name="value">value</string>
+    <string name="length">lenfth</string>
+    <string name="width">width</string>
+    <string name="answer">answer</string>
+    <string name="height">height</string>
+
+</resources>

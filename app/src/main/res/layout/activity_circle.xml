@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".circle">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="394dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="87dp"
+        android:background="@color/teal_200"
+        android:gravity="center"
+        android:text="@string/circle"
+        android:textSize="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/value"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/value"
+        android:layout_width="192dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:hint="@string/value"
+        app:layout_constraintBottom_toTopOf="@+id/answer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="192dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="42dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:hint="Answer"
+        app:layout_constraintBottom_toTopOf="@+id/calculate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/value" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="272dp"
+        android:text="@string/calculate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/answer" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
